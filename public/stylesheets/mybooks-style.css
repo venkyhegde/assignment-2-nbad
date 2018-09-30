@@ -1,0 +1,58 @@
+.mybooks-table{
+    width: 100%;
+    border-spacing: 15px;
+}
+.mybooks-table > thead > tr > th {
+    font-size: 18px;
+    text-align: justify;
+
+}
+.mybooks-table > thead > tr:last-child th{
+    border-bottom-color: #568EDE;
+    border-bottom-style: groove;
+    border-bottom-width: thick;
+}
+.mybooks-table > tbody > tr:last-child td{
+    border-bottom-color: #568EDE;
+    border-bottom-style: groove;
+    border-bottom-width: thick;
+    padding-bottom: 15px;
+}
+.mybooks-table > tbody > tr > td:last-child{
+    width: 20% !important;
+}
+.mybooks-table > tbody > tr:first-child td{
+    padding-top: 15px;
+}
+.site-button{
+    width: auto !important;
+    display:inline !important;
+
+}
+.checked{
+    color:#568EDE;
+}
+.swapped{
+    border-radius: 4px;
+    padding-left:5px !important;
+    padding-right: 5px !important;
+}
+
+/*#434343*/
+/*#7B7B7B*/
+
+.check-button{
+    /*background-color: #568EDE;*/
+    background-image: linear-gradient(to bottom, #434343, #7B7B7B);
+    color:#ffffff;
+    font-weight: normal;
+    font-size: 14px;
+    border: 1px solid #7B7B7B;
+    border-radius: 4px;
+    padding-left:5px !important;
+    padding-right: 5px !important;
+    padding-top:3px;
+    padding-bottom:3px;
+    /*width:100%;*/
+    box-shadow: 0 1px 2px 0 #696969;
+}

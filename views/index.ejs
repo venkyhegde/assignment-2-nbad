@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+
+  <head>
+    <title><%= title.title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+  <div class="wrapper">
+
+
+  <div class="header-wrapper">
+    <% include ./partials/header.ejs %>
+  </div>
+  <div class="user-nav-wrapper">
+    <% include ./partials/user-navigation.ejs %>
+  </div>
+    <div class="nav-side-wrapper">
+      <% include ./partials/site-navigation.ejs %>
+    </div>
+    <div class="main-cont-wrapper">
+      <div class="main-content">
+        <% include ./partials/breadcrum.ejs %>
+        <div>
+          <p class="home-content-txt">Welcome to Niner Book Swap. Where people go to find, swap or give away books</p>
+        </div><br>
+        <div>
+          <p class="home-content-txt">Check out our new section on specialty books and reading accessories!</p>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="footer-wrapper">
+      <% include ./partials/footer.ejs %>
+    </div>
+  </div>
+  </body>
+</html>

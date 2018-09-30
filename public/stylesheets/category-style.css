@@ -1,0 +1,12 @@
+.cat-table{
+    width:100%;
+    text-align: justify;
+}
+.cat-heading{
+    font-size: 26px;
+}
+.cat-items{
+    text-indent: 5%;
+    text-align: left;
+    font-size: 18px;
+}

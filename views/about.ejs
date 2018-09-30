@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title><%= title.title %></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href='/stylesheets/style.css'/>
+</head>
+
+<body>
+<div class="wrapper">
+
+
+    <div class="header-wrapper">
+        <% include ./partials/header.ejs %>
+    </div>
+    <div class="user-nav-wrapper">
+        <% include ./partials/user-navigation.ejs %>
+    </div>
+    <div class="nav-side-wrapper">
+        <% include ./partials/site-navigation.ejs %>
+    </div>
+    <div class="main-cont-wrapper">
+        <div class="main-content">
+            <% include ./partials/breadcrum.ejs %>
+            <div>
+               <h3> We are Niner Book Swap!</h3>
+            </div><br>
+            <div>
+                <h5> Welcome to the about us page of Niner Book Swap</h5>
+            </div>
+        </div>
+    </div>
+    <div class="footer-wrapper">
+        <% include ./partials/footer.ejs %>
+    </div>
+</div>
+</body>
+</html>
